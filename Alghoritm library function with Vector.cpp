@@ -362,7 +362,83 @@ int main() {
         cout << num << " ";
     }
     cout << endl;
-    
+
+	#include<iostream>
+#include<iterator>
+#include <vector>
+#include <algorithm>
+using namespace std;
+int main(){
+
+   /*   
+    vector<int> ar = { 1, 2, 3, 4, 5 }; 
+    vector<int> ar1 = {10, 20, 30};  
+      
+    // Declaring iterator to a vector 
+    vector<int>::iterator ptr = ar.begin(); 
+     
+    // Using advance to set position 
+    advance(ptr, 2); 
+      
+    // copying 1 vector elements in other using inserter() 
+    // inserts ar1 after 3rd position in ar 
+    copy(ar1.begin(), ar1.end(), inserter(ar, ptr)); 
+      
+    // Displaying new vector elements 
+    cout << "The new vector after inserting elements is : "; 
+    for (int &x : ar)  
+        cout << x << " "; 
+     */
+/*	 
+	  std::vector<int> myints;
+  std::cout << "0. size: " << myints.size() << '\n';
+
+  for (int i=0; i<10; i++){
+  
+   myints.push_back(i);
+  std::cout << myints.size() << '\n';   
+}
+myints.pop_back();
+myints.insert (myints.end(),1,100);
+for(int &n : myints)
+{
+	cout << n << " ";
+}
+*/
+/*
+vector<int> ar(10, 0);
+
+ar.pop_back();
+
+
+cout << ar.capacity(); */
+/*
+std::vector<int> myvector(10, 0);
+
+ for (int i=0;i<5;i++) myvector.push_back(i);
+
+  myvector.resize(5);
+  
+  for( int &n : myvector)
+  {
+  	cout << n << " ";
+  }
+  
+  cout << myvector.capacity() << " " << myvector.size();
+  */
+  /*
+
+  std::vector<int> myvector(10, 0);
+	
+	myvector.back() = 5;
+	
+	  for( int &n : myvector)
+  {
+  	cout << n << " ";
+  }
+  
+   */ 
+  
   
 }
 	
